@@ -43,7 +43,7 @@ class HokkabazHook {
         this[ this._pSymbol ] = {
             object,
             propertyKey,
-            original: object[ propertyKey ]
+            original: object[ propertyKey ].bind( object )
         };
         if ( hookCall )
             this.setHook( hookCall );
