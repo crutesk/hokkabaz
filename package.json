@@ -1,0 +1,31 @@
+{
+	"name": "hokkabaz",
+	"version": null,
+	"description": "Hokkabaz, Javascript için bir Hook sistemidir.",
+	"keywords": [
+		"hook",
+		"function",
+		"javascript",
+		"esm",
+		"hack"
+	],
+	"homepage": "https://github.com/crutesk/hokkabaz#readme",
+	"bugs": {
+		"url": "https://github.com/crutesk/hokkabaz/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/crutesk/hokkabaz.git"
+	},
+	"license": "WTFPL",
+	"author": "crutesk",
+	"type": "commonjs",
+	"main": "hokkabaz.js",
+	"scripts": {
+		"test": "node hokkabaz.test.js"
+	},
+	"files": [
+		"hokkabaz.js",
+		"hokkabaz.test.js"
+	]
+}
